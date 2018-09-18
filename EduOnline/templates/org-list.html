@@ -36,7 +36,7 @@
 					<div class="cont">
                         <a href="?ct={{ category }}"><span class="{% ifequal city_id '' %}active2{% endifequal %}">全部</span></a>
                                 {% for city in all_citys %}
-                                 <a href="?city={{ city.id }}&ct={{ category }}"><span class="{% ifequal city_id city.id|stringformat: 'i' %}active2{% endifequal %}">{{ city.name }}</span></a>
+                                 <a href="?city={{ city.id }}&ct={{ category }}"><span class="{% ifequal city_id city.id|stringformat:'i' %}active2{% endifequal %}">{{ city.name }}</span></a>
                                 {% endfor %}
 					</div>
 				</li>
@@ -88,25 +88,25 @@
                 </dl>
                 {% endfor %}
 		</div>
-		 <div class="pageturn">
+            <div class="pageturn">
             <ul class="pagelist">
                 {% if all_orgs.has_previous %}
-                <li class="long"><a href="?{{ all_orgs.previous_page_number.querystring }}">上一页</a></li>
+                    <li class="long"><a href="?{{ all_orgs.previous_page_number.querystring }}">上一页</a></li>
                 {% endif %}
 
-                {% for page in all_orgs %}
+                {% for page in all_orgs.pages %}
                     {% if page %}
                         {% ifequal page all_orgs.number %}
                             <li class="active"><a href="?{{ page.querystring }}">{{ page }}</a></li>
                         {% else %}
                             <li><a href="?{{ page.querystring }}" class="page">{{ page }}</a></li>
                         {% endifequal %}
-                    <li class="none"><a href="">...</a></li>
+                    {% else %}
+                        <li class="none"><a href="">...</a></li>
                     {% endif %}
                 {% endfor %}
-
                 {% if all_orgs.has_next %}
-                <li class="long"><a herf="?{{ all_orgs.next_page_number.querystring }}">下一页</a></li>
+                    <li class="long"><a href="?{{ all_orgs.next_page_number.querystring }}">下一页</a></li>
                 {% endif %}
 
             </ul>
