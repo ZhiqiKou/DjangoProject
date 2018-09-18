@@ -22,8 +22,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/courses/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="20" column="71" lean-forward="false" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
+            <state relative-caret-position="470">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding>
                 <element signature="e#73#105#0" expanded="true" />
               </folding>
@@ -34,7 +34,7 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/courses/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
+            <state relative-caret-position="630">
               <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
               <folding>
                 <element signature="e#16#55#0" expanded="true" />
@@ -46,8 +46,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/courses/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="91" column="79" lean-forward="false" selection-start-line="91" selection-start-column="79" selection-end-line="91" selection-end-column="79" />
+            <state relative-caret-position="320">
+              <caret line="151" column="88" lean-forward="false" selection-start-line="151" selection-start-column="88" selection-end-line="151" selection-end-column="88" />
               <folding>
                 <element signature="e#24#59#0" expanded="true" />
               </folding>
@@ -58,11 +58,10 @@
       <file leaf-file-name="course-play.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/course-play.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+            <state relative-caret-position="-60">
+              <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
               <folding>
                 <element signature="n#block#2;n#!!top" expanded="false" />
-                <element signature="n#block#4;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -98,8 +97,8 @@
       <file leaf-file-name="course-video.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/course-video.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4110">
-              <caret line="137" column="96" lean-forward="false" selection-start-line="137" selection-start-column="96" selection-end-line="137" selection-end-column="96" />
+            <state relative-caret-position="301">
+              <caret line="75" column="92" lean-forward="false" selection-start-line="75" selection-start-column="92" selection-end-line="75" selection-end-column="92" />
               <folding>
                 <element signature="n#block#1;n#!!top" expanded="false" />
                 <element signature="n#block#2;n#!!top" expanded="false" />
@@ -123,12 +122,9 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/organization/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3990">
+            <state relative-caret-position="4950">
               <caret line="165" column="34" lean-forward="false" selection-start-line="165" selection-start-column="34" selection-end-line="165" selection-end-column="34" />
-              <folding>
-                <element signature="e#2967#3517#0" expanded="false" />
-                <element signature="e#3615#4071#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -173,8 +169,8 @@
       <find>章节</find>
       <find>comm</find>
       <find>还</find>
-      <find>video</find>
       <find>video.min</find>
+      <find>video</find>
     </findStrings>
     <replaceStrings>
       <replace>/static/js</replace>
@@ -184,7 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/apps/users/models.py" />
         <option value="$PROJECT_DIR$/apps/courses/adminx.py" />
         <option value="$PROJECT_DIR$/apps/organization/adminx.py" />
         <option value="$PROJECT_DIR$/apps/operation/admix.py" />
@@ -228,13 +223,14 @@
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/course-detail.html" />
         <option value="$PROJECT_DIR$/apps/courses/models.py" />
-        <option value="$PROJECT_DIR$/apps/courses/urls.py" />
         <option value="$PROJECT_DIR$/templates/course-comment.html" />
-        <option value="$PROJECT_DIR$/templates/course-video.html" />
         <option value="$PROJECT_DIR$/apps/utils/mixin_utils.py" />
-        <option value="$PROJECT_DIR$/apps/courses/views.py" />
         <option value="$PROJECT_DIR$/static/css/video-js.min.css" />
         <option value="$PROJECT_DIR$/static/js/video.min.js" />
+        <option value="$PROJECT_DIR$/apps/courses/urls.py" />
+        <option value="$PROJECT_DIR$/apps/courses/views.py" />
+        <option value="$PROJECT_DIR$/templates/course-video.html" />
+        <option value="$PROJECT_DIR$/templates/course-play.html" />
       </list>
     </option>
   </component>
@@ -245,10 +241,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="165" />
-    <option name="y" value="122" />
+    <option name="x" value="891" />
+    <option name="y" value="75" />
     <option name="width" value="1285" />
-    <option name="height" value="852" />
+    <option name="height" value="850" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -265,6 +261,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -300,11 +297,15 @@
               <item name="EduOnline" type="462c0819:PsiDirectoryNode" />
               <item name="EduOnline" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="EduOnline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EduOnline" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -465,7 +466,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="165" y="122" width="1285" height="852" extended-state="0" />
+    <frame x="891" y="75" width="1285" height="850" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29900745" sideWeight="0.50340796" order="7" side_tool="true" content_ui="tabs" />
@@ -473,7 +475,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3213793" sideWeight="0.49659202" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5233161" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19510204" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19836734" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -525,7 +527,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -857,7 +859,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/courses/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
+        <state relative-caret-position="630">
           <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
           <folding>
             <element signature="e#16#55#0" expanded="true" />
@@ -867,22 +869,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/organization/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3990">
+        <state relative-caret-position="4950">
           <caret line="165" column="34" lean-forward="false" selection-start-line="165" selection-start-column="34" selection-end-line="165" selection-end-column="34" />
-          <folding>
-            <element signature="e#2967#3517#0" expanded="false" />
-            <element signature="e#3615#4071#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/courses/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="20" column="71" lean-forward="false" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
-          <folding>
-            <element signature="e#73#105#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -899,17 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/course-video.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4110">
-          <caret line="137" column="96" lean-forward="false" selection-start-line="137" selection-start-column="96" selection-end-line="137" selection-end-column="96" />
-          <folding>
-            <element signature="n#block#1;n#!!top" expanded="false" />
-            <element signature="n#block#2;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/utils/mixin_utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -920,21 +898,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/courses/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="91" column="79" lean-forward="false" selection-start-line="91" selection-start-column="79" selection-end-line="91" selection-end-column="79" />
-          <folding>
-            <element signature="e#24#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/muke/course/common-less.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -942,10 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="606">
           <caret line="0" column="40365" lean-forward="false" selection-start-line="0" selection-start-column="40365" selection-end-line="0" selection-end-column="40365" />
-          <folding>
-            <element signature="e#402#5395#1" expanded="true" />
-            <element signature="e#5411#13113#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -953,17 +916,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="606">
           <caret line="23" column="746" lean-forward="false" selection-start-line="23" selection-start-column="746" selection-end-line="23" selection-end-column="746" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/courses/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="e#73#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/courses/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="151" column="88" lean-forward="false" selection-start-line="151" selection-start-column="88" selection-end-line="151" selection-end-column="88" />
+          <folding>
+            <element signature="e#24#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/course-video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="75" column="92" lean-forward="false" selection-start-line="75" selection-start-column="92" selection-end-line="75" selection-end-column="92" />
+          <folding>
+            <element signature="n#block#1;n#!!top" expanded="false" />
+            <element signature="n#block#2;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/course-play.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        <state relative-caret-position="-60">
+          <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
           <folding>
             <element signature="n#block#2;n#!!top" expanded="false" />
-            <element signature="n#block#4;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

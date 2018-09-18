@@ -4,7 +4,7 @@ from django.views.generic.base import View
 from pure_pagination import Paginator, EmptyPage, PageNotAnInteger
 from django.http import HttpResponse
 
-from .models import Course, CourseResource
+from .models import Course, CourseResource, Video
 from operation.models import UserFavorite, CourseComments, UserCourse
 from utils.mixin_utils import LoginRequiredMixin
 
@@ -131,3 +131,29 @@ class AddCommentsView(View):
             return HttpResponse("{'status': 'success', 'msg': '添加成功'}", content_type='application/json')
         else:
             return HttpResponse("{'status': 'fail', 'msg': '添加失败'}", content_type='application/json')
+
+
+class VideoPlayView(View):
+    """
+    视频播放页面
+    """
+    def get(self, request, video_id):
+        video = Video.objects.get(id=int(video_id))
+        course = video.lesson.course
+        course.click_nums += 1
+        course.save()
+
+        user_cousers = UserCourse.objects.filter(course=course)
+        user_ids=[user_couser.user.id for user_couser in user_cousers]
+        all_user_courses = UserCourse.objects.filter(user_id__in=user_ids)
+        # 取出所有课程id
+        course_ids = [user_couser.course.id for user_couser in all_user_courses]
+        # 获取学过该用户学过其他的所有课程
+        relate_courses = Course.objects.filter(id__in=course_ids).order_by('-click_nums')
+        all_resources = CourseResource.objects.filter(course=course)
+        return render(request, 'course-play.html', {
+            'course': course,
+            'course_resources': all_resources,
+            'relate_courses': relate_courses,
+            'video': video,
+        })
