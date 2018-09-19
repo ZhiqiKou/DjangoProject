@@ -26,9 +26,9 @@ sys.path.insert(0, os.path.join(BASE_DIR, 'extra_apps'))
 SECRET_KEY = '@w1cnhc#r(-o##lu%a1s%r+u)s@=k+9d76_o3nl&9cd8(vd$o1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 AUTHENTICATION_BACKENDS = (
     'users.views.CustomBackend',
@@ -155,3 +155,6 @@ EMAIL_FROM = 'XXXXX@163.com'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# 非debug模式下 需要配置STATIC_ROOT，否则无法找到静态文件
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')

@@ -26,7 +26,7 @@ class UserProfile(AbstractUser):
         # 获取用户未读消息的数量
         # 在函数中导入包，防止循环调用
         from operation.models import UserMessage
-        return UserMessage.objects.filter(user=self.id).count()
+        return UserMessage.objects.filter(user=self.id, has_read=False).count()
 
 class EmailVerifyRecord(models.Model):
     code = models.CharField(max_length=20, verbose_name=u'验证码')
