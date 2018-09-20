@@ -5,7 +5,8 @@ __date__ = '2018/9/11 10:54'
 import xadmin
 from xadmin import views
 
-from .models import EmailVerifyRecord, Banner
+from .models import EmailVerifyRecord, Banner, UserProfile
+
 
 # xadmin主题配置
 class BaseSetting(object):

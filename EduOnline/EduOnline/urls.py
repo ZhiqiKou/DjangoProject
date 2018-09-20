@@ -50,6 +50,10 @@ urlpatterns = [
     url(r'^media/(?P<path>.*)$', serve, {'document_root': MEDIA_ROOT}),
 
     url(r'^static/(?P<path>.*)$', serve, {'document_root': STATIC_ROOT}),
+
+    # 富文本相关URL
+    url(r'^ueditor/', include('DjangoUeditor.urls')),
+
 ]
 
 # 全局404页面
